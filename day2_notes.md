@@ -82,3 +82,20 @@ print(f"Game Over! The secret number was {secret}.")
 
 - Pushed day2.py to GitHub
 - Commands: git add, git commit, git push
+
+## Day 2: Python
+
+- Exercise 4: Reverse Star Pyramid
+
+  - Used for loop and string multiplication to print a reverse pyramid
+  - Learned range(start, stop, step) with negative step
+
+  ## Day 2: Git
+
+- Pushed day1.py, day2.py, day1_notes.md, day2_notes.md to GitHub
+- Used English comments for professional portfolio
+- Commands: git init, git add, git commit, git push
+- Issues:
+  - Got "not a git repository" error, fixed with git init
+  - Got "src refspec main does not match any" error, fixed by using branch main
+  - Set up Personal Access Token with 30-day expiration, japan_dream access
