@@ -47,3 +47,25 @@ for key, value in word_count.items():
     print(f"{key}: {value}")
     print()  # Newline
 
+# Exercise 5: Function to Calculate Average
+def calculate_average(numbers):
+    if not numbers:
+        return 0
+    total = sum(numbers)
+    count = len(numbers)
+    return total / count
+# Test the function
+test_numbers = [4, 8, 15, 16, 23, 42]
+avg = calculate_average(test_numbers)
+print(f"The average is:{avg}\n")
+
+# Exercise 6: Function to Find Maximum
+def find_maximum(numbers):
+    if not numbers:
+        return None  # Return None for empty list
+    max_num = max(numbers)  # Find maximum using max()
+    return max_num  # Return maximum value
+
+test_numbers = [7, 2, 9, 4, 6, 1, 3, 8, 5]
+max_val = find_maximum(test_numbers)
+print(f"The maximum is: {max_val}\n")
